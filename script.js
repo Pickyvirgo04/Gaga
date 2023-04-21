@@ -9,41 +9,47 @@ Iya.addEventListener("click", function () {
     if (Iya.value == 1) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Assalamualaikum, Hai ini saya Fatih Arridho.";
+        Text.innerHTML = "Assalamualaikum, Hai ini saya Muhamad Rangga Saputra Beserta Keluarga.";
         Text.classList.add('text-animate');
-    }else if (Iya.value == 2) {
+      }else if (Iya.value == 3) {
+        Text.classList.remove('text-animate');
+        void Text.offsetWidth; 
+        Text.innerHTML = "Minal 'Aidin wal Faizin, Mohon Maaf Lahit Dan Batin";
+        Image.setAttribute("src", "https://c.tenor.com/uygoMR-ATWgAAAAj/happy-ied-mubarak-ied-mubarak.gif");
+        Text.classList.add('text-animate');
+    }else if (Iya.value == 4) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Saya mohon maaf jika ada salah";
         Image.setAttribute("src", "https://c.tenor.com/uygoMR-ATWgAAAAj/happy-ied-mubarak-ied-mubarak.gif");
         Text.classList.add('text-animate');
-    }else if (Iya.value == 3) {
+    }else if (Iya.value == 5) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Berbuat khilaf adalah sifat";
         Text.classList.add('text-animate');
-    }else if (Iya.value == 4) {
+    }else if (Iya.value == 6) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Meminta maaf adalah kewajiban";
         Text.classList.add('text-animate');
-    }else if (Iya.value == 5) {
+    }else if (Iya.value == 7) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Dan kembalinya fitrah adalah tujuan";
         Text.classList.add('text-animate');
-    }else if (Iya.value == 6) {
+    }else if (Iya.value == 8) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Di hari fitri ini mohon maaf lahir dan batin";
         Text.classList.add('text-animate');
-    }else if (Iya.value == 7) {
+    }else if (Iya.value == 9) {
         Image.setAttribute("src", "https://c.tenor.com/T_16HTs34x4AAAAj/taqabbal-allahu-minna-wa-minkum-accept-god-with-us-and-you.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ وَ تَقَبَّلْ ياَ كَرِيْمُ <br> Taqabbalallahu Minna Wa Minkum";
         Text.classList.add('text-animate');
-    }else if (Iya.value == 8) {
+    }else if (Iya.value == 10) {
         Image.setAttribute("src", "https://c.tenor.com/57JSPYRo0k8AAAAj/lebaran-selamat-lebaran.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
