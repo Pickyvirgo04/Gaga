@@ -9,12 +9,12 @@ Iya.addEventListener("click", function () {
     if (Iya.value == 1) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Assalamualaikum, Hai ini saya Muhamad Rangga S.";
+        Text.innerHTML = "Assalamualaikum, Hai ini saya M.Rangga.S";
         Text.classList.add('text-animate');
     }else if (Iya.value == 2) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Minal 'Aidin wal Faizin, Mohon Maaf Lahit Dan Batin";
+        Text.innerHTML = "Minal'Aidin wal Faizin, Mohon Maaf Lahit Dan Batin";
         Image.setAttribute("src", "https://c.tenor.com/uygoMR-ATWgAAAAj/happy-ied-mubarak-ied-mubarak.gif");
         Text.classList.add('text-animate');
     }else if (Iya.value == 3) {
